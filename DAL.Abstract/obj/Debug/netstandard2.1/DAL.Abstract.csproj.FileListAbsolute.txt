@@ -1,0 +1,9 @@
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.Abstract\bin\Debug\netstandard2.1\DAL.Abstract.deps.json
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.Abstract\bin\Debug\netstandard2.1\DAL.Abstract.dll
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.Abstract\bin\Debug\netstandard2.1\DAL.Abstract.pdb
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.Abstract\obj\Debug\netstandard2.1\DAL.Abstract.csprojAssemblyReference.cache
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.Abstract\obj\Debug\netstandard2.1\DAL.Abstract.AssemblyInfoInputs.cache
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.Abstract\obj\Debug\netstandard2.1\DAL.Abstract.AssemblyInfo.cs
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.Abstract\obj\Debug\netstandard2.1\DAL.Abstract.csproj.CoreCompileInputs.cache
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.Abstract\obj\Debug\netstandard2.1\DAL.Abstract.dll
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.Abstract\obj\Debug\netstandard2.1\DAL.Abstract.pdb

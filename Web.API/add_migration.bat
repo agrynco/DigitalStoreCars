@@ -1,0 +1,1 @@
+dotnet ef migrations add %1 --context CarsDbContext -p ../DAL.EF/DAL.EF.csproj %2 %3 %4 %5 %6 %7 %8 %9

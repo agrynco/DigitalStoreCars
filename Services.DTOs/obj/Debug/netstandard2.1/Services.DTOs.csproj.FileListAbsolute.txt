@@ -1,0 +1,9 @@
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\Services.DTOs\bin\Debug\netstandard2.1\Services.DTOs.deps.json
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\Services.DTOs\bin\Debug\netstandard2.1\Services.DTOs.dll
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\Services.DTOs\bin\Debug\netstandard2.1\Services.DTOs.pdb
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\Services.DTOs\obj\Debug\netstandard2.1\Services.DTOs.csprojAssemblyReference.cache
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\Services.DTOs\obj\Debug\netstandard2.1\Services.DTOs.AssemblyInfoInputs.cache
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\Services.DTOs\obj\Debug\netstandard2.1\Services.DTOs.AssemblyInfo.cs
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\Services.DTOs\obj\Debug\netstandard2.1\Services.DTOs.csproj.CoreCompileInputs.cache
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\Services.DTOs\obj\Debug\netstandard2.1\Services.DTOs.dll
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\Services.DTOs\obj\Debug\netstandard2.1\Services.DTOs.pdb

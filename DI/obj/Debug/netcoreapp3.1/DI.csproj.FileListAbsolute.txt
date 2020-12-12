@@ -1,0 +1,16 @@
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\bin\Debug\netcoreapp3.1\DI.deps.json
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\bin\Debug\netcoreapp3.1\DI.dll
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\bin\Debug\netcoreapp3.1\DI.pdb
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\bin\Debug\netcoreapp3.1\DAL.Abstract.dll
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\bin\Debug\netcoreapp3.1\DAL.EF.dll
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\bin\Debug\netcoreapp3.1\Domain.dll
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\bin\Debug\netcoreapp3.1\DAL.Abstract.pdb
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\bin\Debug\netcoreapp3.1\DAL.EF.pdb
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\obj\Debug\netcoreapp3.1\DI.csprojAssemblyReference.cache
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\obj\Debug\netcoreapp3.1\DI.AssemblyInfoInputs.cache
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\obj\Debug\netcoreapp3.1\DI.AssemblyInfo.cs
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\obj\Debug\netcoreapp3.1\DI.csproj.CoreCompileInputs.cache
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\obj\Debug\netcoreapp3.1\DI.csproj.CopyComplete
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\obj\Debug\netcoreapp3.1\DI.dll
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DI\obj\Debug\netcoreapp3.1\DI.pdb

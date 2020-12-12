@@ -1,0 +1,12 @@
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\bin\Debug\netstandard2.1\DAL.EF.deps.json
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\bin\Debug\netstandard2.1\DAL.EF.dll
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\bin\Debug\netstandard2.1\DAL.EF.pdb
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\obj\Debug\netstandard2.1\DAL.EF.csprojAssemblyReference.cache
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\obj\Debug\netstandard2.1\DAL.EF.AssemblyInfoInputs.cache
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\obj\Debug\netstandard2.1\DAL.EF.AssemblyInfo.cs
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\obj\Debug\netstandard2.1\DAL.EF.csproj.CoreCompileInputs.cache
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\obj\Debug\netstandard2.1\DAL.EF.dll
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\obj\Debug\netstandard2.1\DAL.EF.pdb
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\bin\Debug\netstandard2.1\Domain.dll
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\bin\Debug\netstandard2.1\Domain.pdb
+F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\obj\Debug\netstandard2.1\DAL.EF.csproj.CopyComplete
