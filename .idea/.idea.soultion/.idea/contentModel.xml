@@ -108,14 +108,23 @@
         <e p="Services.Abstract.csproj" t="IncludeRecursive" />
       </e>
       <e p="Services.DTOs" t="IncludeRecursive">
+        <e p="BankLoans" t="Include">
+          <e p="CalculateBankLoanOutputDto.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
-        <e p="GetModelsItemDto.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="GetModelsItemDto.cs" t="Include" />
+          <e p="GetVariantsItemDto.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.1" t="Include">
               <e p="Services.DTOs.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Orders" t="Include">
+          <e p="CreateOrderInputDto.cs" t="Include" />
         </e>
         <e p="Services.DTOs.csproj" t="IncludeRecursive" />
       </e>
@@ -127,7 +136,10 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="build_migration_sql_script.bat" t="Include" />
         <e p="Controllers" t="Include">
+          <e p="ApiControllerBase.cs" t="Include" />
+          <e p="BankLoansController.cs" t="Include" />
           <e p="ModelsController.cs" t="Include" />
+          <e p="OrdersController.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
