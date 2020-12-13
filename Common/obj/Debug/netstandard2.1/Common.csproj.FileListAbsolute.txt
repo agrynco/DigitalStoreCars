@@ -1,9 +1,0 @@
-F:\Projects\Grynco\AGrynco\DigitalStoreCars\Common\bin\Debug\netstandard2.1\Common.deps.json
-F:\Projects\Grynco\AGrynco\DigitalStoreCars\Common\bin\Debug\netstandard2.1\Common.dll
-F:\Projects\Grynco\AGrynco\DigitalStoreCars\Common\bin\Debug\netstandard2.1\Common.pdb
-F:\Projects\Grynco\AGrynco\DigitalStoreCars\Common\obj\Debug\netstandard2.1\Common.csprojAssemblyReference.cache
-F:\Projects\Grynco\AGrynco\DigitalStoreCars\Common\obj\Debug\netstandard2.1\Common.AssemblyInfoInputs.cache
-F:\Projects\Grynco\AGrynco\DigitalStoreCars\Common\obj\Debug\netstandard2.1\Common.AssemblyInfo.cs
-F:\Projects\Grynco\AGrynco\DigitalStoreCars\Common\obj\Debug\netstandard2.1\Common.csproj.CoreCompileInputs.cache
-F:\Projects\Grynco\AGrynco\DigitalStoreCars\Common\obj\Debug\netstandard2.1\Common.dll
-F:\Projects\Grynco\AGrynco\DigitalStoreCars\Common\obj\Debug\netstandard2.1\Common.pdb
