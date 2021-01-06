@@ -7,36 +7,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3189cfb1-06d2-4ff5-afe0-c2057cc7d2d8" name="Default Changelist" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services.DTOs/BankLoans/CalculateBankLoanOutputDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services.DTOs/Models/GetVariantsItemDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services.DTOs/Orders/CreateOrderInputDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web.API/Controllers/ApiControllerBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web.API/Controllers/BankLoansController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web.API/Controllers/OrdersController.cs" afterDir="false" />
+    <list default="true" id="3189cfb1-06d2-4ff5-afe0-c2057cc7d2d8" name="Default Changelist" comment="added .gitignore">
+      <change afterPath="$PROJECT_DIR$/DAL.Abstract/ICarModelsRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Abstract/IRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.EF/BaseApplicationRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.EF/BaseRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.EF/CarModelsRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services.Abstract/ICarModelsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services.DTOs/FilterDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services.DTOs/Models/GetModelsFilterDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services.DTOs/PagedResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services.Tests/ModelsServiceTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services.Tests/Services.Tests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/AutoMapper/CarModelMappingProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/AutoMapper/MappingProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/CarModelsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soultion.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.soultion/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.soultion/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.soultion/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.soultion/.idea/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.soultion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.soultion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.EF/obj/Debug/netcoreapp3.1/DAL.EF.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.EF/obj/Debug/netcoreapp3.1/DAL.EF.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DI/obj/Debug/netcoreapp3.1/DI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DI/obj/Debug/netcoreapp3.1/DI.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services.DTOs/GetModelsItemDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services.DTOs/Models/GetModelsItemDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services.DTOs/bin/Debug/netstandard2.1/Services.DTOs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services.DTOs/bin/Debug/netstandard2.1/Services.DTOs.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services.DTOs/bin/Debug/netstandard2.1/Services.DTOs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services.DTOs/bin/Debug/netstandard2.1/Services.DTOs.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services.DTOs/obj/Debug/netstandard2.1/Services.DTOs.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services.DTOs/obj/Debug/netstandard2.1/Services.DTOs.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services.DTOs/obj/Debug/netstandard2.1/Services.DTOs.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services.DTOs/obj/Debug/netstandard2.1/Services.DTOs.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services.DTOs/obj/Debug/netstandard2.1/Services.DTOs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services.DTOs/obj/Debug/netstandard2.1/Services.DTOs.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services.DTOs/obj/Debug/netstandard2.1/Services.DTOs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services.DTOs/obj/Debug/netstandard2.1/Services.DTOs.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/netcoreapp3.1/Services.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/netcoreapp3.1/Services.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.Abstract/DAL.Abstract.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.Abstract/DAL.Abstract.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.EF/CarsDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.EF/CarsDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.EF/DAL.EF.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.EF/DAL.EF.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DI/DI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DI/DI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DI/DependencyHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DI/DependencyHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services.Abstract/Services.Abstract.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services.Abstract/Services.Abstract.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services.DTOs/Models/GetModelsItemDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services.DTOs/Models/GetModelsItemDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services.DTOs/Services.DTOs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services.DTOs/Services.DTOs.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Services.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web.API/Controllers/ModelsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/Controllers/ModelsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web.API/Response.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/Response.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.API/bin/Debug/netcoreapp3.1/Services.DTOs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/bin/Debug/netcoreapp3.1/Services.DTOs.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.API/bin/Debug/netcoreapp3.1/Services.DTOs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/bin/Debug/netcoreapp3.1/Services.DTOs.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.API/bin/Debug/netcoreapp3.1/Web.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/bin/Debug/netcoreapp3.1/Web.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.API/bin/Debug/netcoreapp3.1/Web.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/bin/Debug/netcoreapp3.1/Web.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.API/obj/Debug/netcoreapp3.1/Web.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/obj/Debug/netcoreapp3.1/Web.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.API/obj/Debug/netcoreapp3.1/Web.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/obj/Debug/netcoreapp3.1/Web.API.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.API/obj/Debug/netcoreapp3.1/Web.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/obj/Debug/netcoreapp3.1/Web.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.API/obj/Debug/netcoreapp3.1/Web.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/obj/Debug/netcoreapp3.1/Web.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web.API/Web.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/Web.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soultion.sln" beforeDir="false" afterPath="$PROJECT_DIR$/soultion.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,41 +50,88 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5723D2C3-5851-4D78-89A9-838781296FB1/13/DynamicServiceProviderEngine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9C37662-579A-499A-A4DE-B3C85349280D/10/fa3dea75/IAsyncEnumerator`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/183/ModelCustomizer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/161/EntityTypeBuilder`.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://F:/Projects/Grynco/AGrynco/DigitalStoreCars/Services.DTOs/GetModelsItemDto.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F055C0ED-DD91-4EF9-9A0A-EE4E82D6B1F9/1/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5723D2C3-5851-4D78-89A9-838781296FB1/F/CallSiteVisitor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5723D2C3-5851-4D78-89A9-838781296FB1/1E/ServiceProviderEngineScope.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/1AB/InternalDbSet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/A/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/19F/DbContextServices.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/185/ModelSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5723D2C3-5851-4D78-89A9-838781296FB1/D/CallSiteRuntimeResolver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5723D2C3-5851-4D78-89A9-838781296FB1/1D/ServiceProviderEngine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/21/EntityFrameworkQueryableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C867EF38-35C3-451A-A57C-72CF2569F155/4/ServiceProviderServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/17D/EntityFrameworkServicesBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/DI/Class1.cs" />
       <option value="$PROJECT_DIR$/Web.API/appsettings.json" />
-      <option value="$PROJECT_DIR$/DI/DependencyHelper.cs" />
       <option value="$PROJECT_DIR$/Domain/Entity.cs" />
-      <option value="$PROJECT_DIR$/DAL.EF/CarsDbContext.cs" />
       <option value="$PROJECT_DIR$/Services.DTOs/GetModelsItemDto.cs" />
-      <option value="$PROJECT_DIR$/Web.API/Startup.cs" />
-      <option value="$PROJECT_DIR$/Services.DTOs/Models/GetModelsItemDto.cs" />
       <option value="$PROJECT_DIR$/Services.DTOs/Models/GetVariantsItemDto.cs" />
       <option value="$PROJECT_DIR$/Web.API/Controllers/ApiControllerBase.cs" />
       <option value="$PROJECT_DIR$/Services.DTOs/BankLoan/CamlculateBanLoanOutputDto.cs" />
       <option value="$PROJECT_DIR$/Services.DTOs/BankLoan/CalculateBanLoanOutputDto.cs" />
       <option value="$PROJECT_DIR$/Services.DTOs/BankLoan/CalculateBankLoanOutputDto.cs" />
       <option value="$PROJECT_DIR$/Web.API/Controllers/BankLoansController.cs" />
-      <option value="$PROJECT_DIR$/Web.API/Controllers/ModelsController.cs" />
       <option value="$PROJECT_DIR$/Services.DTOs/BankLoans/CalculateBankLoanOutputDto.cs" />
       <option value="$PROJECT_DIR$/Services.DTOs/Orders/CreateOrderInputDto.cs" />
       <option value="$PROJECT_DIR$/Web.API/Controllers/OrderController.cs" />
+      <option value="$PROJECT_DIR$/Services.Abstract/IModelControllers.cs" />
       <option value="$PROJECT_DIR$/Web.API/Controllers/OrdersController.cs" />
+      <option value="$PROJECT_DIR$/Services.Abstract/IModelServices.cs" />
+      <option value="$PROJECT_DIR$/Services/ModelServices.cs" />
+      <option value="$PROJECT_DIR$/Web.API/Response.cs" />
+      <option value="$PROJECT_DIR$/Web.API/Controllers/ModelsController.cs" />
+      <option value="$PROJECT_DIR$/Services.DTOs/FilterDto.cs" />
+      <option value="$PROJECT_DIR$/Services.DTOs/Models/GetModelsFilterDto.cs" />
+      <option value="$PROJECT_DIR$/DAL.Abstract/IRepository.cs" />
+      <option value="$PROJECT_DIR$/DAL.EF/BaseApplicationRepository.cs" />
+      <option value="$PROJECT_DIR$/DAL.EF/BaseRepository.cs" />
+      <option value="$PROJECT_DIR$/DAL.EF/CarModelsRepository.cs" />
+      <option value="$PROJECT_DIR$/DAL.Abstract/ICarModelsRepository.cs" />
+      <option value="$PROJECT_DIR$/Services/AutoMapper/CarModelMappingProfile.cs" />
+      <option value="$PROJECT_DIR$/Services.DTOs/PagedResult.cs" />
+      <option value="$PROJECT_DIR$/Services.Tests/Class1.cs" />
+      <option value="$PROJECT_DIR$/Web.API/Startup.cs" />
+      <option value="$PROJECT_DIR$/Services.DTOs/Models/GetModelsItemDto.cs" />
+      <option value="$PROJECT_DIR$/Services/ModelsService.cs" />
+      <option value="$PROJECT_DIR$/DAL.EF/CarsDbContext.cs" />
+      <option value="$PROJECT_DIR$/DI/DependencyHelper.cs" />
+      <option value="$PROJECT_DIR$/Services.Tests/ModelsServiceTests.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lWBQBslDUtrISnmBtYjLuuiRB2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -137,7 +188,11 @@
       <updated>1607702956452</updated>
       <workItem from="1607702956590" duration="10418000" />
       <workItem from="1607719155842" duration="151000" />
-      <workItem from="1607719336076" duration="22911000" />
+      <workItem from="1607719336076" duration="28549000" />
+      <workItem from="1608234372113" duration="487000" />
+      <workItem from="1609743021227" duration="594000" />
+      <workItem from="1609754063072" duration="8476000" />
+      <workItem from="1609862686869" duration="16472000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1607780633236</created>
@@ -153,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607780787052</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added .gitignore">
+      <created>1607865846734</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607865846734</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,10 +233,50 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="added .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .gitignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DAL.EF/CarsDbContext.cs</url>
+          <line>37</line>
+          <properties documentPath="F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\CarsDbContext.cs" initialLine="37" containingFunctionPresentation="method 'OnModelCreating'">
+            <startOffsets>
+              <option value="1199" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1234" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services.Tests/ModelsServiceTests.cs</url>
+          <line>83</line>
+          <properties documentPath="F:\Projects\Grynco\AGrynco\DigitalStoreCars\Services.Tests\ModelsServiceTests.cs" initialLine="128" containingFunctionPresentation="method 'GetModels'">
+            <startOffsets>
+              <option value="2446" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2476" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#System.Linq.SystemCore_EnumerableDebugViewEmptyException" memberName="Empty" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

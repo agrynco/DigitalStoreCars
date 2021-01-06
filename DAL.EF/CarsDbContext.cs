@@ -1,9 +1,7 @@
-﻿using System.Resources;
-using Domain;
+﻿using Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
 
 namespace DAL.EF
 {
@@ -12,6 +10,12 @@ namespace DAL.EF
         public CarsDbContext(DbContextOptions options) : base(options)
         {
         }
+
+        public DbSet<CarModel> CarModels { get; set; }
+        public DbSet<CarOrder> CarOrders { get; set; }
+        public DbSet<CarTrim> CarTrims { get; set; }
+        public DbSet<CarVariant> CarVariants { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
         private ILoggerFactory GetLoggerFactory()
         {
@@ -42,7 +46,7 @@ namespace DAL.EF
             Seed(modelBuilder);
         }
 
-        private void Seed(ModelBuilder modelBuilder)
+        public void Seed(ModelBuilder modelBuilder)
         {
             SeedCarModels(modelBuilder);
             SeedCarTrims(modelBuilder);
@@ -311,11 +315,5 @@ namespace DAL.EF
                 }).IsUnique();
             });
         }
-
-        public DbSet<CarModel> CarModels { get; set; }
-        public DbSet<CarOrder> CarOrders { get; set; }
-        public DbSet<CarTrim> CarTrims { get; set; }
-        public DbSet<CarVariant> CarVariants { get; set; }
-        public DbSet<Customer> Customers { get; set; }
     }
 }

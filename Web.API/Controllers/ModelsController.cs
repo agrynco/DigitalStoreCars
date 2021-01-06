@@ -1,17 +1,26 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Services.Abstract;
+using Services.DTOs;
 using Services.DTOs.Models;
 
 namespace Web.API.Controllers
 {
     public class ModelsController : ApiControllerBase
     {
+        private readonly ICarModelsService _carModelsService;
+
+        public ModelsController(ICarModelsService carModelsService)
+        {
+            _carModelsService = carModelsService;
+        }
+
         [Route("")]
         [HttpGet]
-        public Task<Response<GetModelsItemDto[]>> GetModels()
+        public async Task<Response<PagedResult<GetModelsItemDto>>> GetModels(GetModelsFilterDto filterDto)
         {
-            throw new NotImplementedException();
+            return new Response<PagedResult<GetModelsItemDto>>(await _carModelsService.GetModels(filterDto));
         }
 
         [Route("{id}/variants")]
