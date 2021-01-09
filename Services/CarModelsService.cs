@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -36,7 +37,9 @@ namespace Services
                 .Skip((filterDto.PageNumber - 1) * filterDto.PageSize)
                 .Take(filterDto.PageSize).ToListAsync();
 
-            var totalPages = (await query.CountAsync()) / filterDto.PageSize;
+            var totalCount = await query.CountAsync();
+            var totalPages = totalCount / filterDto.PageSize + 
+                             (totalCount % filterDto.PageSize == 0 ? 0 : 1);
             var models = _mapper.Map<List<CarModel>, GetModelsItemDto[]>(carModels);
 
             return new PagedResult<GetModelsItemDto>(models, totalPages);

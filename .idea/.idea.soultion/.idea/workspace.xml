@@ -7,40 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3189cfb1-06d2-4ff5-afe0-c2057cc7d2d8" name="Default Changelist" comment="added .gitignore">
-      <change afterPath="$PROJECT_DIR$/DAL.Abstract/ICarModelsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.Abstract/IRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.EF/BaseApplicationRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.EF/BaseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.EF/CarModelsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services.Abstract/ICarModelsService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services.DTOs/FilterDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services.DTOs/Models/GetModelsFilterDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services.DTOs/PagedResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services.Tests/ModelsServiceTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services.Tests/Services.Tests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/AutoMapper/CarModelMappingProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/AutoMapper/MappingProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/CarModelsService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soultion.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.soultion/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.soultion/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.soultion/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.soultion/.idea/riderModule.iml" afterDir="false" />
+    <list default="true" id="3189cfb1-06d2-4ff5-afe0-c2057cc7d2d8" name="Default Changelist" comment="#1 Implemented CarModelsServices and covered it with tests">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.soultion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.soultion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.Abstract/DAL.Abstract.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.Abstract/DAL.Abstract.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.EF/CarsDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.EF/CarsDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.EF/DAL.EF.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.EF/DAL.EF.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DI/DI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DI/DI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DI/DependencyHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DI/DependencyHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services.Abstract/Services.Abstract.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services.Abstract/Services.Abstract.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services.DTOs/Models/GetModelsItemDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services.DTOs/Models/GetModelsItemDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services.DTOs/Services.DTOs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services.DTOs/Services.DTOs.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Services.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.API/Controllers/ModelsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/Controllers/ModelsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.API/Response.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/Response.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.API/Web.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Web.API/Web.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soultion.sln" beforeDir="false" afterPath="$PROJECT_DIR$/soultion.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services.Tests/ModelsServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services.Tests/ModelsServiceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/CarModelsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/CarModelsService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,28 +29,22 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5723D2C3-5851-4D78-89A9-838781296FB1/13/DynamicServiceProviderEngine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9C37662-579A-499A-A4DE-B3C85349280D/10/fa3dea75/IAsyncEnumerator`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/183/ModelCustomizer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/161/EntityTypeBuilder`.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F055C0ED-DD91-4EF9-9A0A-EE4E82D6B1F9/1/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5723D2C3-5851-4D78-89A9-838781296FB1/F/CallSiteVisitor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5723D2C3-5851-4D78-89A9-838781296FB1/1E/ServiceProviderEngineScope.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/1AB/InternalDbSet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/A/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/19F/DbContextServices.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/185/ModelSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5723D2C3-5851-4D78-89A9-838781296FB1/D/CallSiteRuntimeResolver.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5723D2C3-5851-4D78-89A9-838781296FB1/1D/ServiceProviderEngine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/21/EntityFrameworkQueryableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C867EF38-35C3-451A-A57C-72CF2569F155/4/ServiceProviderServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0DB0FE9-4FD4-48F7-BC71-8D68078A7AD1/17D/EntityFrameworkServicesBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -118,6 +82,7 @@
       <option value="$PROJECT_DIR$/Services/ModelsService.cs" />
       <option value="$PROJECT_DIR$/DAL.EF/CarsDbContext.cs" />
       <option value="$PROJECT_DIR$/DI/DependencyHelper.cs" />
+      <option value="$PROJECT_DIR$/Services/CarModelsService.cs" />
       <option value="$PROJECT_DIR$/Services.Tests/ModelsServiceTests.cs" />
     </changedPaths>
   </component>
@@ -192,7 +157,8 @@
       <workItem from="1608234372113" duration="487000" />
       <workItem from="1609743021227" duration="594000" />
       <workItem from="1609754063072" duration="8476000" />
-      <workItem from="1609862686869" duration="16472000" />
+      <workItem from="1609862686869" duration="17094000" />
+      <workItem from="1609972601186" duration="4343000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1607780633236</created>
@@ -215,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607865846734</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="#1 Implemented CarModelsServices and covered it with tests">
+      <created>1609945407950</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609945407950</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,39 +213,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial" />
     <MESSAGE value="added .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .gitignore" />
+    <MESSAGE value="#1 Implemented CarModelsServices and covered it with tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="#1 Implemented CarModelsServices and covered it with tests" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DAL.EF/CarsDbContext.cs</url>
-          <line>37</line>
-          <properties documentPath="F:\Projects\Grynco\AGrynco\DigitalStoreCars\DAL.EF\CarsDbContext.cs" initialLine="37" containingFunctionPresentation="method 'OnModelCreating'">
-            <startOffsets>
-              <option value="1199" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1234" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Services.Tests/ModelsServiceTests.cs</url>
-          <line>83</line>
-          <properties documentPath="F:\Projects\Grynco\AGrynco\DigitalStoreCars\Services.Tests\ModelsServiceTests.cs" initialLine="128" containingFunctionPresentation="method 'GetModels'">
-            <startOffsets>
-              <option value="2446" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2476" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#System.Linq.SystemCore_EnumerableDebugViewEmptyException" memberName="Empty" />

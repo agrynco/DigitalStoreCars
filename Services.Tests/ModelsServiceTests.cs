@@ -93,6 +93,8 @@ namespace Services.Tests
             });
             
             //Assert
+            actual.Items.Length.Should().Be(2);
+            actual.TotalPages.Should().Be(3);
         }
 
         private static CarsDbContext BuildDbContext()
