@@ -18,7 +18,7 @@ namespace Web.API.Controllers
 
         [Route("")]
         [HttpGet]
-        public async Task<Response<PagedResult<GetModelsItemDto>>> GetModels(GetModelsFilterDto filterDto)
+        public async Task<Response<PagedResult<GetModelsItemDto>>> GetModels([FromQuery] GetModelsFilterDto filterDto)
         {
             return new Response<PagedResult<GetModelsItemDto>>(await _carModelsService.GetModels(filterDto));
         }

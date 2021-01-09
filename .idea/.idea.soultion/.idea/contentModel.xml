@@ -166,6 +166,7 @@
       <e p="soultion.sln" t="IncludeFlat" />
       <e p="Web.API" t="IncludeRecursive">
         <e p="add_migration.bat" t="Include" />
+        <e p="ApiKeyMiddleware.cs" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
